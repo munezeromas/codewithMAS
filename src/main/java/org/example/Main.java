@@ -16,5 +16,8 @@ bird2.fly();
         inkjetPrinter.print();
         LaserPrinter laserPrinter = new LaserPrinter();
         laserPrinter.print();
+        Phone phone =new Phone();
+        phone.recharge();
+        phone.turnOn();
     }
 }
